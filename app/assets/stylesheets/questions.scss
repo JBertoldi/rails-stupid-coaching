@@ -7,11 +7,20 @@ $orange: rgb(209, 72, 23);
 body {
   font-family: 'Montserrat', sans-serif;
 }
-
+ // form
 #form {
   width: 100%;
 }
 
+.button {
+  background-color: $orange;
+  border-style: none;
+  padding:3px 8px;
+  border-radius: 2px;
+  color: #FFF;
+}
+
+// answer page
 .container {
   border-radius: 5px;
   padding: 16px 16px 4px 16px;
