@@ -1,3 +1,31 @@
 // Place all the styles related to the questions controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+$lightyellow: #FFFFE1;
+$orange: rgb(209, 72, 23);
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#form {
+  width: 100%;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 16px 16px 4px 16px;
+  border-left: 2px solid $orange;
+  margin: 8px;
+  width: 50%;
+}
+#coach_answer {
+  background-color: $lightyellow;
+}
+
+.link {
+  text-decoration: none;
+  color: $orange;
+  margin: 8px;
+  padding: 16px;
+}
